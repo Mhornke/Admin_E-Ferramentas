@@ -1,0 +1,7 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.bg-customizado-posicao {
+    background-position: 50% 50% ;
+  }
