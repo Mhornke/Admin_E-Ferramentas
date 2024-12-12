@@ -2,8 +2,13 @@ import type { NextConfig } from "next";
 
 const nextConfig: NextConfig = {
  images: {
-    domains: ['unsplash.com', 'media.istockphoto.com', 'www.istockphoto.com', 'freepik.com'], // Adicionando o domínio do Freepik
-  },
+    images: {
+    domains: [
+      'unsplash.com', 
+      'media.istockphoto.com', 
+      'istockphoto.com', 
+      'img.freepik.com' 
+    ],
 };
 
 export default nextConfig;
